@@ -10,11 +10,25 @@ var test = function (input, output, opts) {
 };
 
 describe('poxtxml-imgalt', function () {
-    it('set alt', function () {
-        test(
-            '<img src="image.png">',
-            '<img src="image.png" alt="">',
-            {}
-        );
-    });
+   it('set alt', function () {
+      test(
+         '<img src="image.png">',
+         '<img src="image.png" alt="">',
+         {}
+      );
+   });
+   it('ignore alt', function () {
+      test(
+         '<img src="image.png" alt="text">',
+         '<img src="image.png" alt="text">',
+         {}
+      );
+   });
+   it('ignore another elements', function () {
+      test(
+         '<div></div>',
+         '<div></div>',
+         {}
+      );
+   });
 });
