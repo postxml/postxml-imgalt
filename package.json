@@ -1,38 +1,38 @@
 {
-	"name": "poxtxml-imgalt",
-	"version": "0.1.0",
-	"description": "Postxml plugin for addding alt attributes to images.",
-	"main": "index.js",
-	"dependencies": {
-		"postxml": "^0.0.5"
-	},
-	"devDependencies": {
-		"chai": "^3.2.0",
-		"gulp": "^3.9.0",
-		"gulp-eslint": "^1.0.0",
-		"gulp-mocha": "^2.1.3"
-	},
-	"scripts": {
-		"test": "mocha",
-		"lint": "jshint . && jscs ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/postxml/poxtxml-imgalt.git"
-	},
-	"keywords": [
-		"html",
-		"plugin",
-		"postxml",
-		"transform"
-	],
-	"author": {
-		"name": "alanev",
-		"email": "e@alanev.ru"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/postxml/poxtxml-imgalt/issues"
-	},
-	"homepage": "https://github.com/postxml/poxtxml-imgalt#readme"
+  "name": "poxtxml-imgalt",
+  "version": "0.1.1",
+  "description": "Postxml plugin for addding alt attributes to images.",
+  "main": "index.js",
+  "dependencies": {
+    "postxml": "^0.0.5"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint . && jscs ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postxml/poxtxml-imgalt.git"
+  },
+  "keywords": [
+    "html",
+    "plugin",
+    "postxml",
+    "transform"
+  ],
+  "author": {
+    "name": "alanev",
+    "email": "e@alanev.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postxml/poxtxml-imgalt/issues"
+  },
+  "homepage": "https://github.com/postxml/poxtxml-imgalt#readme"
 }
