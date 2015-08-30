@@ -4,7 +4,7 @@
 > [PostXML] plugin enabling configuration maps.
 
 ## Installation
-`npm i postxml- --save-dev`
+`npm i poxtxml-imgalt --save-dev`
 
 ## Usage
 ```js
@@ -26,12 +26,12 @@ var output = postxml(
 
 ### Input
 ```html
-
+<img src="image.png">
 ```
 
 ### Output
 ```html
-
+<img src="image.png" alt="">
 ```
 
 ## Licence
