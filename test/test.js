@@ -9,7 +9,7 @@ var test = function (input, output, opts) {
    expect(proccessed).to.eql(output);
 };
 
-describe('poxtxml-imgalt', function () {
+describe('postxml-imgalt', function () {
    it('set alt', function () {
       test(
          '<img src="image.png">',

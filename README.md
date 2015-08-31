@@ -1,16 +1,16 @@
-# poxtxml-imgalt
+# postxml-imgalt
 [![npm version][npm-image]][npm-url]
 
-> [PostXML] plugin enabling configuration maps.
+> [PostXML] plugin for adding alt attributes to images.
 
 ## Installation
-`npm i poxtxml-imgalt --save-dev`
+`npm i postxml-imgalt --save-dev`
 
 ## Usage
 ```js
 var fs = require('fs'),
    postxml = require('postxml'),
-   plugin = require('poxtxml-imgalt');
+   plugin = require('postxml-imgalt');
 
 var html = fs.readFileSync('input.html', 'utf8');
 
@@ -39,5 +39,5 @@ MIT
 
 [PostXML]: https://github.com/postxml/postxml
 
-[npm-url]: https://www.npmjs.org/package/poxtxml-imgalt
-[npm-image]: http://img.shields.io/npm/v/poxtxml-imgalt.svg?style=flat-square
+[npm-url]: https://www.npmjs.org/package/postxml-imgalt
+[npm-image]: http://img.shields.io/npm/v/postxml-imgalt.svg?style=flat-square
